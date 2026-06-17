@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
-import '@/Sections/AllJewellery/AllJewellery.css'; 
+import '@/sections/AllJewellery/AllJewellery.css'; 
 import NavbarPage from '@/sections/LuxuryNavbar';
 import { mangalsutraData } from '@/data/mangalsutras';
 
