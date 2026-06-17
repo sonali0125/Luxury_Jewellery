@@ -1,0 +1,8 @@
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.9); display: grid; place-items: center; z-index: 1000; }
+.modal { background: #090909; border: 1px solid #D4AF37; padding: 40px; text-align: center; color: #fff; }
+.message { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-top: 20px; color: #D4AF37; }
+
+/* The Details Form */
+.detailsOverlay { position: fixed; inset: 0; background: rgba(0,0,0,0.95); display: flex; align-items: center; justify-content: center; }
+.detailsOverlay form { display: flex; flex-direction: column; gap: 15px; width: 300px; }
+.detailsOverlay input { padding: 12px; background: #111; border: 1px solid #333; color: white; }

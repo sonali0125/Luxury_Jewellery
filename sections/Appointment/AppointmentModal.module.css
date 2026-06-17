@@ -1,0 +1,9 @@
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: grid; place-items: center; z-index: 100; }
+.modal { background: #090909; padding: 40px; border: 1px solid #D4AF37; width: 400px; color: #fff; }
+
+.successState { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.tick { width: 80px; height: 80px; color: #D4AF37; }
+
+/* Input field styles should match your existing theme */
+input { width: 100%; padding: 12px; margin-bottom: 10px; background: #111; border: 1px solid #333; color: white; }
+button { width: 100%; padding: 15px; background: #D4AF37; border: none; cursor: pointer; font-weight: 700; }
